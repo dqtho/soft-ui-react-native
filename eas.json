@@ -1,0 +1,27 @@
+{
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "node": "16.4.0",
+        "distribution": "internal",
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "production": {
+        "node": "16.4.0",
+        "env": {
+          "ENVIRONMENT": "production"
+        }
+      }
+    }
+  }

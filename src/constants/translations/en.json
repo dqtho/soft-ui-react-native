@@ -49,10 +49,10 @@
     }
   },
   "app": {
-    "name": "Soft UI",
+    "name": "Đọc truyện online",
     "fullname": "Soft UI Kit",
-    "native": "React Native",
-    "link": "creative-tim.com"
+    "native": "",
+    "link": ""
   },
   "darkMode": "Dark Mode",
   "screens": {
@@ -66,7 +66,7 @@
     "extra": "Extra - Automotive"
   },
   "navigation": {
-    "home": "Soft UI",
+    "home": "Đọc truyện online",
     "components": "Components",
     "articles": "Soft UI",
     "rentals": "Soft UI",
@@ -89,7 +89,7 @@
     "documentation": "Documentation"
   },
   "home": {
-    "title": "Soft UI",
+    "title": "Soft UI hello",
     "following": "Following",
     "trending": "Trending"
   },

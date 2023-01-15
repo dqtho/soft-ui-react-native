@@ -22,7 +22,7 @@ const Home = () => {
     <Block>
       {/* search input */}
       <Block color={colors.card} flex={0} padding={sizes.padding}>
-        <Input search placeholder={t('common.search')} />
+        <Input search placeholder="search" />
       </Block>
 
       {/* toggle products list */}
@@ -47,7 +47,7 @@ const Home = () => {
               <Image source={assets.extras} color={colors.white} radius={0} />
             </Block>
             <Text p font={fonts?.[tab === 0 ? 'medium' : 'normal']}>
-              {t('home.following')}
+              following
             </Text>
           </Block>
         </Button>
@@ -76,7 +76,7 @@ const Home = () => {
               />
             </Block>
             <Text p font={fonts?.[tab === 1 ? 'medium' : 'normal']}>
-              {t('home.trending')}
+              trending
             </Text>
           </Block>
         </Button>
